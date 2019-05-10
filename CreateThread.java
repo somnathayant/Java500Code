@@ -6,6 +6,12 @@ class Thr1  implements Runnable {
 		System.out.println("=====1");
 	}
 }
+class E{
+	  void m1(){
+		  
+	  }
+	
+}
 
 class Thr2 extends Thread{
 	
@@ -21,10 +27,12 @@ public class CreateThread {
 
 	public static void main(String[] args){
 		
-		  Thr1 mt1 = new Thr1();
 		  
-		  Thread t = new Thread(mt1);
+		  Thread t = new Thread(new Thr1());
 		  t.start();
+		
+		  
+		  
 		  
 		  Thr2 t2=new Thr2();
 		  t2.start();
