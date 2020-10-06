@@ -1,4 +1,4 @@
-package servlet;
+package com.ayantsoft.core1.ems;
 
 class MyThread extends Thread
 {

@@ -1,4 +1,4 @@
-package servlet;
+package com.ayantsoft.core1.ems;
 
 class Thr1  implements Runnable {
 	

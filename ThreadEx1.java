@@ -1,4 +1,4 @@
-package servlet;
+package com.ayantsoft.core1.ems;
 
 class Th11 extends Thread{
 	
@@ -29,3 +29,4 @@ public class ThreadEx1 {
 	}
 
 }
+
